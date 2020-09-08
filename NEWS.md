@@ -6,6 +6,9 @@
   missing support for UN M.49 regions for which there are no corresponding ISO
   3166 alpha codes. This enables language tags such as `es-419` = Spanish in
   Latin America and the Caribbean. Implements #2919.
+* all: attachments: the MIME type of TrueType fonts that are detected as
+  `application/x-font-ttf` is not mapped to the outdated
+  `application/x-truetype-font` anymore.
 
 ## Bug fixes
 

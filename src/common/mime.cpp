@@ -144,9 +144,6 @@ guess_type(std::string ext,
   if (type.empty())
     return "application/octet-stream";
 
-  else if (type == "application/x-font-ttf")
-    return "application/x-truetype-font";
-
   return type;
 }
 
